@@ -1,4 +1,11 @@
 {
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  }
+}
+{
   "name": "vercel-php",
   "description": "Vercel PHP runtime",
   "version": "0.7.1",
@@ -41,3 +48,4 @@
     "typescript": "5.4.5"
   }
 }
+
